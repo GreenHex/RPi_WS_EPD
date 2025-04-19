@@ -1,0 +1,7 @@
+#
+# 19-Apr-2025
+#
+.vscode
+/EPD
+/_builds
+/_builds/**
