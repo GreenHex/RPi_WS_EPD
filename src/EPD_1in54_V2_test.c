@@ -46,7 +46,7 @@ extern const char *__progname;
 
 extern UBYTE *BlackImage;
 
-#define CHECK_PROCESS_STATUS "bitcoind"
+#define CHECK_PROCESS_STATUS "firefox"
 
 #define LINE_HEIGHT_ADJUSTMENT 5
 
