@@ -48,7 +48,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -g")
 
 # add_compile_definitions(USE_DEBUG)
 
-target_include_directories(EPD PRIVATE ./examples)
+target_include_directories(EPD PRIVATE ./src)
 target_include_directories(EPD PRIVATE ./lib)
 target_include_directories(EPD PRIVATE ./lib/Config)
 target_include_directories(EPD PRIVATE ./lib/Fonts)
