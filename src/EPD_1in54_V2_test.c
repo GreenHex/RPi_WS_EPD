@@ -201,7 +201,7 @@ int EPD_1in54_V2_test(void)
 			end_u = usage.ru_utime;
 		}
 
-		DEBUG(LOG_INFO, "%s getrusage() gives %d seconds.", __progname, end_s.tv_sec + end_u.tv_sec - start_s.tv_sec - start_u.tv_sec);
+		DEBUG("%s getrusage() gives %d seconds.", __progname, end_s.tv_sec + end_u.tv_sec - start_s.tv_sec - start_u.tv_sec);
 
 		sleep(10);
 	}
